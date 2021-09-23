@@ -1,0 +1,195 @@
+/*mediaQueries*/
+@import url("imports/mediaQueries.css");
+
+.nvSctn{
+    width:100%;
+    height:95vh;
+    background-image:url("/includes/images/nvSctnimg.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position: relative;
+}
+
+/* =======================================================
+* 	nvsction for about page
+* ======================================================= */
+.abt{
+    background-image:url("/includes/images/abtImgs/Light.jpg") !important;
+}
+/* =======================================================
+* 	nvsction for contact us page
+* ======================================================= */
+.cntct{
+    /*background-image:none !important;*/
+    background-image:url('/includes/Plugins/FormV3/images/bg-01.jpg')!important;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:12%;
+    width:100%;
+    background-color:#FFBF00;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    z-index: 100;
+}
+
+/*.cover{
+    background-color: #000000;
+    height: 95vh;
+    position: absolute;
+    top: 55%;
+    z-index: 3;
+}*/
+
+.scrolling{
+    position: fixed;
+    top: 0px;
+    height:8%;
+    /*z-index: 100;*/
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    /*width: 60%;*/
+}
+
+.hamburger{
+    display: none;
+}
+
+nav ul li a{
+    margin:30px;
+    font-family:myriad pro regular;
+    color:#505050;
+    font-size: 15px;
+    font-weight:700;
+}
+
+.logo{
+    font-family:RoadTest;
+    color:#000000;
+    border: 1.5px black dotted;
+    border-radius: 5px;
+    padding: 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.logo a{
+    font-size: 15px;
+}
+
+a:hover{
+    color: aliceblue !important;
+}
+
+.logo span{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.active{
+    color:#800000;
+    font-weight:bold;
+    font-size: large;
+}
+
+.line{
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin:5px;
+}
+
+
+
+@keyframes navLinksFade {
+    from{
+        opacity: 0;
+        transform: translate(50px);
+        -webkit-transform: translate(50px);
+        -moz-transform: translate(50px);
+        -ms-transform: translate(50px);
+        -o-transform: translate(50px);
+}
+    to{
+        opacity:1;
+        transform: translate(0px);
+        -webkit-transform: translate(0px);
+        -moz-transform: translate(0px);
+        -ms-transform: translate(0px);
+        -o-transform: translate(0px);
+}
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav_links{
+        position: absolute;
+        right: 0px;
+        height: 95vh;
+        top: 8vh;
+        background-color:#FFBF00;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        -webkit-transition: transform 0.5s ease-in;
+        -moz-transition: transform 0.5s ease-in;
+        -ms-transition: transform 0.5s ease-in;
+        -o-transition: transform 0.5s ease-in;
+}
+    
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-active{
+        z-index: 100;
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+}
+
+    .nav_links li{
+        opacity: 0;
+    }
+
+    .nav_links li a{
+        font-size: 15px;
+    }
+
+    .scrolling{
+    z-index: 2;
+    top: 0px;
+    height:8%;
+    }
+}

@@ -1,0 +1,135 @@
+/*floating card of business summary*/
+@import url("imports/fltngCrd.css");
+/*products&services*/
+@import url("imports/prdNdSrvcs.css");
+/*final section*/
+@import url("imports/banner.css");
+/*mainQry*/
+@import url("imports/mediaQueries.css");
+
+
+
+.text-container{
+    position: absolute;
+    left:8%;
+    top:42%;
+    transform:translate(-13%,-42%);
+    -webkit-transform:translate(-13%,-42%);
+    -moz-transform:translate(-13%,-42%);
+    -ms-transform:translate(-13%,-42%);
+    -o-transform:translate(-13%,-42%);
+}
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight:bold;
+    color:#fff;
+    font-size:22px;
+}
+.text-container p:nth-child(2){
+    font-family:calibri;
+    font-weight:bold;
+    letter-spacing:1px;
+    color:#fff;
+    font-size:60px;
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #fff;
+    font-size:30px;
+    line-height:30px;
+}
+    
+.text-container p{
+    margin:45px 0px 25px;
+    line-height:0px;
+}
+.text-container button{
+    width:130px;
+    height:42px;
+    border-radius:10px;
+    font-family:calibri;
+    font-weight:bold;
+    font-size: 14px;
+    outline:none;
+    margin:10px 10px 10px;
+}
+
+.hire-btn{
+    border:2px solid #373636;
+    color:#373636;
+    background-color:#FFBF00;
+}
+
+.down-cv{
+    background-color:#FFBF00;
+    border:2px solid #373636;
+    color:#373636;
+}
+.text-container button:hover{
+    background-color: azure;
+    width:130.5px;
+    transition: 999ms;
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -webkit-transition: 999ms;
+    -moz-transition: 999ms;
+    -ms-transition: 999ms;
+    -o-transition: 999ms;
+}
+
+button:active{
+    transform:scale(1.1);
+}
+
+@media screen and (max-width:750px){
+
+    .nvSctn{
+        background-image:none;
+        background-color:#f7f7f7;
+    }
+
+    .text-container p:nth-child(2){
+        line-height: 40px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .text-container{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+    }
+
+    .about-container{
+        top: 0px;
+        flex-direction: column;
+        width:90%;
+        height: auto;
+        padding: 30px 0px;
+        align-items: center;
+    }
+    
+    .about-container img{
+        height: 10px;
+        width: auto;
+    }
+
+    .about-text{
+        width:90%;
+        text-align: center;
+    }
+    .about-text p:nth-child(3),.about-text p:nth-child(4)
+    {
+        font-size: 14px;
+    }
+
+    
+}

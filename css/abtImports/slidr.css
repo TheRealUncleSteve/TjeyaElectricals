@@ -1,0 +1,54 @@
+@import url("headr.css");
+
+.testimonials{
+    background: url(back.jpeg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /*vertical-align: middle;*/
+    z-index: 1;
+    display: block;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.slide-items{
+    /*background-color: aqua;*/
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 20%;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.slide-items h5{
+    font-size: x-large;
+}
+
+.testimonials .testislider .slide-items img{
+    width:80px ;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonials .flex-direction-nav a:before {
+    font-family: "Ionicons";
+    font-size: 40px;
+    display: inline-block;
+    content: '\f3d5';
+}
+
+.testimonials .flex-direction-nav a.flex-next:before {
+    content: '\f3d6';
+}

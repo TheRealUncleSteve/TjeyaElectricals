@@ -1,0 +1,95 @@
+.info_Container{
+    padding: 5em 3em;
+    clear: both;
+}
+
+.info_row{
+    display: flex;
+    width: 100%;
+}
+
+.info_row h3{
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 2.5%;
+}
+
+.col-md-4{
+    width: 30%;
+}
+
+.Quote {
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+}
+
+.cmpny_info{
+    margin-right: 10%;
+    line-height: 1.4;
+}
+
+.cmpny_info p{
+    padding-bottom: 5%;
+}
+
+.mission{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 100%;
+    font-weight: 5%;
+    text-align: center;
+}
+
+.connect {
+    margin-top: 5%;
+    margin-left: 10px;
+    padding: 0;
+    text-align: center;
+    border: 1px black dotted;
+    border-radius: 8%;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 8%;
+    -ms-border-radius: 8%;
+    -o-border-radius: 8%;
+}
+
+.connect p{
+    font-size: large;
+    padding-bottom: 5%;
+}
+
+span img{
+    width: 20%;
+    height: auto;
+}
+
+.connect li {
+    list-style: none;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+@media screen and (max-width: 768px) {
+    .info_Container{
+        padding: 3em 1em;
+    }
+
+    .info_row{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .col-md-4{
+        width: 100%;
+        padding-bottom: 5%;
+        border-bottom: 0.5px solid black;
+    }
+
+    span img{
+        width: 10%;
+        height: auto;
+    }
+}

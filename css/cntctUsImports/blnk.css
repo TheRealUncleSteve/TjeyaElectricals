@@ -1,0 +1,9 @@
+.blank{
+    width: 100%;
+    height: 300px;
+    /*background-color: aquamarine;*/
+    background: linear-gradient(270deg,rgb(29, 29, 29),rgb(255, 255, 255));
+    background: -webkit-linear-gradient(270deg,rgb(29, 29, 29),rgb(255, 255, 255));
+    background: -o-linear-gradient(270deg,rgb(29, 29, 29),rgb(255, 255, 255));
+    background: -moz-linear-gradient(270deg,rgb(29, 29, 29),rgb(255, 255, 255));
+}

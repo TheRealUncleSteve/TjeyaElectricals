@@ -1,0 +1,194 @@
+section .wlcm{
+    /*background-color: aqua;*/
+    position: absolute;
+    left:10%;
+    top:50%;
+    width: 500px;
+    transform:translate(-13%,-42%);
+    -webkit-transform:translate(-13%,-42%);
+    -moz-transform:translate(-13%,-42%);
+    -ms-transform:translate(-13%,-42%);
+    -o-transform:translate(-13%,-42%);
+}
+
+.wlcm_slider{
+    width: 100%;
+    border-radius: 34px;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    -ms-border-radius: 34px;
+    -o-border-radius: 34px;
+    overflow: hidden;
+}
+
+.wlcm_slides{
+    width: 500%;
+    display: flex;
+    padding-right: 3px;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+.wlcm_slides input{
+    display: none;
+}
+
+.wlcm_slide{
+    width: 100%;
+}
+
+
+.wlcm_slide h2{
+    font-family:calibri;
+    font-weight:bold;
+    letter-spacing:1px;
+    color:#fff;
+    font-size:409%;
+}
+
+.wlcm_slide h3{
+    margin-left: 20%;
+    font-family:calibri;
+    font-weight:bold;
+    letter-spacing:1px;
+    color:#FFBF00;
+    margin-right: 1%;
+    font-size:45px;
+}
+
+.wlcm_Name{
+    margin-left: 5% !important;
+    letter-spacing: normal !important;
+    font-size:50px !important;
+
+}
+
+#rad1:checked ~ .frst{
+    margin-left: 0;
+}
+
+#rad2:checked ~ .frst{
+    margin-left: -50%;
+}
+
+#rad3:checked ~ .frst{
+    margin-left: -200%;
+}
+
+/*Auto*/
+.auto_nav{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top:30%;
+}
+
+.auto_nav div{
+    border: 1px dotted whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+
+.auto_nav div:not(:last-child){
+    margin-right: 40px;
+}
+
+#rad1:checked ~ .auto_nav .auto_btn1{
+    background: #FFBF00;
+}
+#rad2:checked ~ .auto_nav .auto_btn2{
+    background: #FFBF00;
+}
+#rad3:checked ~ .auto_nav .auto_btn3{
+    background: #FFBF00;
+}
+
+@media screen and (max-width:750px) {
+    section .wlcm{
+        /*background-color: aqua;*/
+        position: absolute;
+        left:20%;
+        top:50%;
+        width: 410px!important;
+        transform:translate(-13%,-42%);
+        -webkit-transform:translate(-13%,-42%);
+        -moz-transform:translate(-13%,-42%);
+        -ms-transform:translate(-13%,-42%);
+        -o-transform:translate(-13%,-42%);
+    }
+    .wlcm_slides{
+        width: 300%;
+        display: flex;
+        padding-right: 3px;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+    }
+
+    .wlcm_slide h2{
+        font-size:390%;
+    }
+    .wlcm_slide h3{
+        margin-left: 3%;
+        font-size:45px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    section .wlcm{
+        /*background-color: aqua;*/
+        position: absolute;
+        left:20%;
+        top:50%;
+        width: 300px!important;
+        transform:translate(-13%,-42%);
+        -webkit-transform:translate(-13%,-42%);
+        -moz-transform:translate(-13%,-42%);
+        -ms-transform:translate(-13%,-42%);
+        -o-transform:translate(-13%,-42%);
+    }
+    .wlcm_slides{
+        width: 340%;
+        display: flex;
+        padding-right: 3px;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+    }
+
+    .wlcm_slide h2{
+        font-size:390%;
+    }
+    .wlcm_slide h3{
+        margin-left: 1%;
+        font-size:45px;
+    }
+    .wlcm_Name{
+        margin-left: 1% !important;
+        letter-spacing: normal !important;
+        font-size:40px !important;
+    
+    }
+    .middle h2{
+        margin-left: 1% !important;
+        letter-spacing: normal !important;
+        font-size:290%;
+    }
+}

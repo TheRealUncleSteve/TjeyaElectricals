@@ -1,0 +1,11 @@
+.bg-contact3{
+    /*background-color: aqua;*/
+    position: absolute;
+    left:13%;
+    top:80%;
+    transform:translate(-13%,-42%);
+    -webkit-transform:translate(-13%,-42%);
+    -moz-transform:translate(-13%,-42%);
+    -ms-transform:translate(-13%,-42%);
+    -o-transform:translate(-13%,-42%);
+}
