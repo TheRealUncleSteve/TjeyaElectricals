@@ -1,7 +1,7 @@
-@import url("headr.css");
+@import url("/TjeyaElectricals/headr.css");
 
 .testimonials{
-    background: url(back.jpeg);
+    background: url(/TjeyaElectricals/back.jpeg);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;

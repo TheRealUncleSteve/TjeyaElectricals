@@ -10,7 +10,7 @@
                             <ul class="slides">
                                 <li>
                                     <div class="slide-items">
-                                        <img src="includes/images/abtImgs/usrPrfls/team-1.jpg" alt="">
+                                        <img src="/TjeyaElectricals/includes/images/abtImgs/usrPrfls/team-1.jpg" alt="">
                                         <p>
                                             Small paragraph of customers giving their reviews of the service the company provides. Small paragraph of customers giving their reviews of the service the company provides.  
                                         </p>
@@ -19,7 +19,7 @@
                                 </li>
                                 <li>
                                     <div class="slide-items">
-                                        <img src="includes/images/abtImgs/usrPrfls/team-2.jpg" alt="">
+                                        <img src="/TjeyaElectricals/includes/images/abtImgs/usrPrfls/team-2.jpg" alt="">
                                         <p>
                                             Small paragraph of customers giving their reviews of the service the company provides. Small paragraph of customers giving their reviews of the service the company provides.  
                                         </p>
@@ -28,7 +28,7 @@
                                 </li>
                                 <li>
                                     <div class="slide-items">
-                                        <img src="includes/images/abtImgs/usrPrfls/team-3.jpg" alt="">
+                                        <img src="/TjeyaElectricals/includes/images/abtImgs/usrPrfls/team-3.jpg" alt="">
                                         <p>
                                             Small paragraph of customers giving their reviews of the service the company provides. Small paragraph of customers giving their reviews of the service the company provides.  
                                         </p>
@@ -37,7 +37,7 @@
                                 </li>
 								<li>
                                     <div class="slide-items">
-                                        <img src="includes/images/abtImgs/usrPrfls/team-1.jpg" alt="">
+                                        <img src="/TjeyaElectricals/includes/images/abtImgs/usrPrfls/team-1.jpg" alt="">
                                         <p>
                                             Small paragraph of customers giving their reviews of the service the company provides. Small paragraph of customers giving their reviews of the service the company provides.  
                                         </p>
@@ -46,7 +46,7 @@
                                 </li>
                                 <li>
                                     <div class="slide-items">
-                                        <img src="includes/images/abtImgs/usrPrfls/team-2.jpg" alt="">
+                                        <img src="/TjeyaElectricals/includes/images/abtImgs/usrPrfls/team-2.jpg" alt="">
                                         <p>
                                             Small paragraph of customers giving their reviews of the service the company provides. Small paragraph of customers giving their reviews of the service the company provides.  
                                         </p>
@@ -55,7 +55,7 @@
                                 </li>
                                 <li>
                                     <div class="slide-items">
-                                        <img src="includes/images/abtImgs/usrPrfls/team-3.jpg" alt="">
+                                        <img src="/TjeyaElectricals/includes/images/abtImgs/usrPrfls/team-3.jpg" alt="">
                                         <p>
                                             Small paragraph of customers giving their reviews of the service the company provides. Small paragraph of customers giving their reviews of the service the company provides.  
                                         </p>

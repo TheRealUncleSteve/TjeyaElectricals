@@ -1,6 +1,6 @@
 <div class="about-container">
         <!--img-->
-    <img src="pic1.jpg"/>
+    <img src="/TjeyaElectricals/pic1.jpg"/>
         <!--about-me-text-->
     <div class="about-text">
         <p>WHO ARE WE?</p>

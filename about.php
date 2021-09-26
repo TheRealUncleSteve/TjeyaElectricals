@@ -1,16 +1,16 @@
 <?php 
     $curntPg='abt';
-    include "includes/header.php";
+    include "/TjeyaElectricals/includes/header.php";
 ?>
     <section class="container">
         <section class="nvSctn abt">
             <nav id="nv">
-                <?php include "includes/navigation.php";?>
+                <?php include "/TjeyaElectricals/includes/navigation.php";?>
             </nav>
         </section>
         <!--<div class="cover"></div>-->
         <section class="contentArea">
             <?php //$name=$_SERVER['SERVER_NAME'];echo $name;?>
-            <?php include "includes/contentAreaAbt.php";?>
+            <?php include "/TjeyaElectricals/includes/contentAreaAbt.php";?>
         </section>
-<?php include "includes/footer.php";?>
+<?php include "/TjeyaElectricals/includes/footer.php";?>

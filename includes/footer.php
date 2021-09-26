@@ -12,15 +12,15 @@
     </footer>
 </section>
 <!--javaScript links-->
-<script type="text/javascript" src="Javascript/stckyHeader.js"></script>
-<script type="text/javascript" src="Javascript/responsivenav.js"></script>
+<script type="text/javascript" src="/TjeyaElectricals/Javascript/stckyHeader.js"></script>
+<script type="text/javascript" src="/TjeyaElectricals/Javascript/responsivenav.js"></script>
 <!--about page-->
-<script type="text/javascript" src="Javascript/jquery.min.js"></script>
-<script type="text/javascript" src="Javascript/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="Javascript/template.js"></script>
-<script type="text/javascript" src="Javascript/navSct.js"></script>
+<script type="text/javascript" src="/TjeyaElectricals/Javascript/jquery.min.js"></script>
+<script type="text/javascript" src="/TjeyaElectricals/Javascript/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/TjeyaElectricals/Javascript/template.js"></script>
+<script type="text/javascript" src="/TjeyaElectricals/Javascript/navSct.js"></script>
 <!--Contact Us-->
-<?php require "plgInFootScripts.php"?>
+<?php require "/TjeyaElectricals/plgInFootScripts.php"?>
 
 </body>
 </html>

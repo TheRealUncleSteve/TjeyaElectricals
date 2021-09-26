@@ -12,7 +12,7 @@
             }
         }
         else {
-            require "dB/dbBackup/navBackup.php";
+            require "/TjeyaElectricals/dB/dbBackup/navBackup.php";
         }
     ?>
 </ul>

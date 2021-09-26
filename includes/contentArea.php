@@ -7,6 +7,6 @@
 </div>
 
 <!--The floating card that offers a summary of the business profile-->
-<?php include "includes/pages/hme/fltngCrd.php" ;?>
-<?php include "includes/pages/hme/srvcs.php" ;?>
-<?php include "includes/pages/hme/connect.php" ;?>
+<?php include "/TjeyaElectricals/includes/pages/hme/fltngCrd.php" ;?>
+<?php include "/TjeyaElectricals/includes/pages/hme/srvcs.php" ;?>
+<?php include "/TjeyaElectricals/includes/pages/hme/connect.php" ;?>

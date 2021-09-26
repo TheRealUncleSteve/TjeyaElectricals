@@ -21,11 +21,11 @@
                     <br>
 					<ul class="connect">
                         <p>link with us and let us help you</p>
-                            <a href=""><span class="tab" id="msg"><img src="includes/images/abtImgs/msg.png" alt="" srcset=""></span> </a>
+                            <a href=""><span class="tab" id="msg"><img src="/TjeyaElectricals/includes/images/abtImgs/msg.png" alt="" srcset=""></span> </a>
 						        <li>Wite us a Message</li>
-                            <a href=""><span class="tab" id="qt"><img src="includes/images/abtImgs/quote.png" alt="" srcset=""></span></a>
+                            <a href=""><span class="tab" id="qt"><img src="/TjeyaElectricals/includes/images/abtImgs/quote.png" alt="" srcset=""></span></a>
 						        <li>Request a Quote</li>
-                            <a href=""><span class="tab" id="out"><img src="includes/images/abtImgs/hlp.png" alt="" srcset=""></span></a>
+                            <a href=""><span class="tab" id="out"><img src="/TjeyaElectricals/includes/images/abtImgs/hlp.png" alt="" srcset=""></span></a>
 						        <li>We'll be out to help you</li>
 					</ul>
 			</div>

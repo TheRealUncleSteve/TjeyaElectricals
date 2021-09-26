@@ -1,10 +1,10 @@
 /*mediaQueries*/
-@import url("imports/mediaQueries.css");
+@import url("/TjeyaElectricals/imports/mediaQueries.css");
 
 .nvSctn{
     width:100%;
     height:95vh;
-    background-image:url("/includes/images/nvSctnimg.png");
+    background-image:url("/TjeyaElectricals/includes/images/nvSctnimg.png");
     background-size:cover;
     background-repeat:no-repeat;
     position: relative;
@@ -14,14 +14,14 @@
 * 	nvsction for about page
 * ======================================================= */
 .abt{
-    background-image:url("/includes/images/abtImgs/Light.jpg") !important;
+    background-image:url("/TjeyaElectricals/includes/images/abtImgs/Light.jpg") !important;
 }
 /* =======================================================
 * 	nvsction for contact us page
 * ======================================================= */
 .cntct{
     /*background-image:none !important;*/
-    background-image:url('/includes/Plugins/FormV3/images/bg-01.jpg')!important;
+    background-image:url('/TjeyaElectricals/includes/Plugins/FormV3/images/bg-01.jpg')!important;
 }
 
 nav{

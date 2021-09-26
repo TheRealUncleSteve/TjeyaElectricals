@@ -48,9 +48,9 @@
 						<div>
 							<select class="selection-2" name="budget">
 								<option>Budget</option>
-								<option>1500 $</option>
-								<option>2000 $</option>
-								<option>3000 $</option>
+								<option>R amt</option>
+								<option>R amt</option>
+								<option>R amt</option>
 							</select>
 						</div>
 						<span class="focus-input3"></span>
