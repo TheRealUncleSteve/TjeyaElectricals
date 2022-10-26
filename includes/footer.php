@@ -8,7 +8,7 @@
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
-        <p class="copyright"><?php echo ("Copyright &copy; Project compiled by Muzikayise Nkosi & Nelisiwe Mathebula");?></p>
+        <p class="copyright"><?php echo ("Copyright &copy; Project compiled by Muzikayise Nkosi");?></p>
     </footer>
 </section>
 <!--javaScript links-->
