@@ -1,20 +1,20 @@
 <?php 
     $curntPg='hme';
-    include "/TjeyaElectricals/includes/header.php";
+    include "./includes/header.php";
 ?>
 
 <section class="container">
     <section class="nvSctn">
         <nav id="nv">
-            <?php include "/TjeyaElectricals/includes/navigation.php";?>
+            <?php include "./includes/navigation.php";?>
         </nav>
     </section>
     <section class="contentArea">
         <!--This is the content of the home page-->
-        <?php include "/TjeyaElectricals/includes/contentArea.php";?>
+        <?php include "./includes/contentArea.php";?>
     </section>
 
 
 
 
-<?php include "/TjeyaElectricals/includes/footer.php";?>
+<?php include "./includes/footer.php";?>
